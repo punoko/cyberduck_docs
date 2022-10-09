@@ -67,6 +67,10 @@ The setting is not available in the Mac App Store version. Make sure to change t
 The default is set to `~/Library/Application Support/Mountain Duck/Volumes`. The mount location **cannot** be set to `/Volumes` where the directory is not writable.
 :::
 
+```{attention}
+Custom mount location is not honoured in _Integrated_ connect mode.
+```
+
 ### Cache Location
 
 ::::{tabs}
